@@ -78,6 +78,13 @@ div .card {
     color: var(--primary-color);
 }
 
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    padding: 8px;
+}
 .card img {
     object-fit: cover;
     max-height: 80vh;
