@@ -5,14 +5,37 @@
 /* Global styles */
 
 body {
-    background-color: rgb(92, 94, 95);
+    background-color: #929591;
 }
 
 /* Hero section */
+/* Background image photographed by: Aneta Lusina */
 .hero-img {
     background-image: url("../images/pexels-anete-lusina-16513604.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
+    border-bottom: 2px solid #d7d7d9;
+    border-bottom-style: outset;
+}
+
+/* Navbar */
+
+#gs-logo {
+    border-style: outset;
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-size: 100%;
+}
+.navbar {
+    font-family: "Farsan", sans-serif;
+    font-size: 40px;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #929591 !important;
 }
