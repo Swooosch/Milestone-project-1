@@ -136,7 +136,7 @@ footer p {
     .navbar-nav a {
         background-color: #ffff;
         opacity: 50%;
-        width: 20vh;
+        width: 25vh;
         color: var(--header-color);
         padding-left: 1rem;
     }
