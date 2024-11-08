@@ -124,6 +124,19 @@ footer p {
     
 }
 
+@media screen and (max-width: 992px) {
+    .nav-link.active {
+        text-decoration: underline;
+    }
+    .navbar-nav a {
+        background-color: #ffff;
+        opacity: 50%;
+        width: 20vh;
+        color: var(--header-color);
+    }
+    
+}
+
 @media screen and (min-width: 768px) {
 
     .card {
