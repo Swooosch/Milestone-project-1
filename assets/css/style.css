@@ -71,7 +71,7 @@ main h2 {
 }
 
 div .card {
-    margin: 2rem 4rem;
+    margin: 0rem 4rem;
     text-align: center;
     background-color: var(--header-color);
     border-style: none;
@@ -125,6 +125,11 @@ footer p {
 }
 
 @media screen and (max-width: 992px) {
+    
+    .navbar-nav {
+        border-left: solid var(--header-color);
+    }
+    
     .nav-link.active {
         text-decoration: underline;
     }
@@ -133,6 +138,7 @@ footer p {
         opacity: 50%;
         width: 20vh;
         color: var(--header-color);
+        padding-left: 1rem;
     }
     
 }
