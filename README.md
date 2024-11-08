@@ -31,6 +31,7 @@ Main audience is people that wants to improve themself and their health and be a
 
 ### Credits 
 
+* Images are from www.pexels.com 
 * If used any external code/graphics/photos etc, name them here
 * Applies to tutorials as well
 * Used the tutorial provided by Code Institute, https://www.youtube.com/watch?v=l1DE7L-4eKQ

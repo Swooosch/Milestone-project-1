@@ -4,7 +4,7 @@
 :root {
     --primary-font: "Varela Round", sans-serif;
     --secondary-font: "Farsan", sans-serif;
-    --header-color: #4109C3;
+    --header-color: #945c85;
     --primary-color: white;
 }
 /* Global styles */
@@ -13,6 +13,7 @@ body {
     background-image: url(../images/pexels-anete-lusina-16513602.jpg);
     background-color: #929591;
     background-size: cover;
+    background-repeat: no-repeat
 }
 
 /* Hero section */
@@ -40,6 +41,7 @@ body {
 }
 .navbar-brand {
     font-size: 100%;
+    color: var(--header-color);
 }
 
 .navbar {
@@ -48,7 +50,7 @@ body {
 }
 
 .navbar a:hover {
-    color: #4109C3;
+    color: var(--header-color);
 }
 
 /* Change color for active page */
@@ -67,9 +69,38 @@ body {
 
 /* Header */
 
+header {
+    text-align: center;
+    font-size: 5em;
+    padding-top: 2rem;
+}
+
 h1,
 h2,
 h3 {
-    color: var(--header-color);
+    color: var(--primary-color);
     font-family: var(--secondary-font);
+}
+
+/* Footer */
+
+footer {
+    background-color: #ffff;
+    opacity: 50%;
+    text-align: center;
+    border-top: outset #d7d7d9;
+    
+}
+
+footer p {
+    margin-bottom: 0%;
+    color: black;
+}
+
+/* Media queries */
+
+@media screen and (min-width: 992px) {
+    .navbar {
+        padding-right: 14rem;
+    }
 }
