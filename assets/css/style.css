@@ -1,0 +1,18 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
+
+
+/* Global styles */
+
+body {
+    background-color: rgb(92, 94, 95);
+}
+
+/* Hero section */
+.hero-img {
+    background-image: url("../images/pexels-anete-lusina-16513604.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+}
