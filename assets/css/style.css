@@ -64,8 +64,25 @@ body {
     background-color: transparent !important;
 }
 
-/* Buttons */
+/* Main */
 
+main h2 {
+    text-align: center;
+}
+
+div .card {
+    margin: 2rem 4rem;
+    text-align: center;
+    background-color: var(--header-color);
+    border-style: none;
+    color: var(--primary-color);
+}
+
+.card img {
+    object-fit: cover;
+    max-height: 80vh;
+    
+}
 
 /* Header */
 
@@ -103,4 +120,14 @@ footer p {
     .navbar {
         padding-right: 14rem;
     }
+
+    
+}
+
+@media screen and (min-width: 768px) {
+
+    .card {
+        columns: 1;
+    }
+    
 }
