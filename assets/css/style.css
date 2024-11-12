@@ -121,6 +121,10 @@ footer p {
     color: black;
 }
 
+footer a {
+    font-size: 200%;
+}
+
 /* Media queries */
 
 @media screen and (min-width: 992px) {
