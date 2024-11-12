@@ -41,7 +41,7 @@ body {
 }
 .navbar-brand {
     font-size: 100%;
-    color: var(--header-color);
+    color: darkmagenta;
 }
 
 .navbar {
@@ -156,4 +156,15 @@ footer p {
         columns: 1;
     }
     
+}
+
+@media screen and (max-width: 300px) {
+    .navbar-brand {
+        font-size: 80%;
+    }
+
+    .navbar-brand #gs-logo {
+        width: 60px;
+        height: 60px;
+    }
 }
