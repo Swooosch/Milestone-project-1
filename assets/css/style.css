@@ -4,7 +4,7 @@
 :root {
     --primary-font: "Varela Round", sans-serif;
     --secondary-font: "Farsan", sans-serif;
-    --header-color: #945c85;
+    --header-color: #1de11a;
     --primary-color: white;
 }
 /* Global styles */
@@ -40,8 +40,13 @@ body {
     color: var(--primary-color);
 }
 .navbar-brand {
+    background-color: #000000;
+    border-radius: 10px;
+    padding-left: 0.2em;
+    padding-right: 0.2em;
+    opacity: 40%;
     font-size: 100%;
-    color: darkmagenta;
+    color: var(--header-color);
 }
 
 .navbar {
@@ -123,6 +128,40 @@ h3 {
     font-family: var(--secondary-font);
 }
 
+/* Contact Form */
+
+.contactform {
+    background-color: #1de11a;
+    opacity: 50%;
+    width: 45vw;
+    font-family: var(--secondary-font);
+    font-size: 160%;
+    color: black;
+    border-radius: 10px;
+}
+
+.btn {
+    margin-bottom: 0.5rem;
+    justify-content: center;
+}
+
+#submit-button {
+    width: 20vw;
+}
+
+
+.contactform input {
+    width: 40.5vw;
+    border: #6c757d solid 1px;
+    border-radius: 5px;
+}
+
+textarea {
+    border: #6c757d solid 1px;
+    border-radius: 5px;
+    width: 40.5vw;
+}
+
 /* Footer */
 
 footer {
@@ -149,6 +188,22 @@ footer a {
         padding-right: 14rem;
     }
 
+    
+    .contactform {
+        width: 35vw;
+        }
+    
+    #submit-button {
+        width: 10vw;
+    }
+    
+    textarea {
+        width: 33vw;
+    }
+    
+    .contactform input {
+        width: 33vw;
+    }
     
 }
 
@@ -188,4 +243,39 @@ footer a {
         width: 60px;
         height: 60px;
     }
+
+    .contactform {
+        width: 70vw;
+    }
+
+    #submit-button {
+        width: 20vw;
+    }
+
+    textarea {
+        width: 60vw;
+    }
+
+    .contactform input {
+        width: 60vw;
+    }
 }
+/* Mobile contact form 
+@media screen and (max-width: 425px) {
+    .contactform {
+        width: 75vw;
+    }
+
+    #submit-button {
+        width: 20vw;
+    }
+
+    textarea {
+        width: 60vw;
+    }
+
+    .contactform input {
+        width: 60vw;
+    }
+}
+/* Tablet contact form */
