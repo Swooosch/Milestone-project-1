@@ -40,14 +40,12 @@ body {
     color: var(--primary-color);
 }
 .navbar-brand {
-    background-color: #000000;
-    border-radius: 10px;
     padding-left: 0.2em;
     padding-right: 0.2em;
-    opacity: 40%;
     font-size: 100%;
     color: var(--header-color);
 }
+
 
 .navbar {
     font-family: "Farsan", sans-serif;
@@ -80,7 +78,7 @@ div .card {
     text-align: center;
     background-color: var(--header-color);
     border-style: none;
-    color: var(--primary-color);
+    color: black;
 }
 
 .card-title {
@@ -132,7 +130,6 @@ h3 {
 
 .contactform {
     background-color: #1de11a;
-    opacity: 50%;
     width: 45vw;
     font-family: var(--secondary-font);
     font-size: 160%;
@@ -143,6 +140,8 @@ h3 {
 .btn {
     margin-bottom: 0.5rem;
     justify-content: center;
+    font-size: 80%;
+    background-color: #212324;
 }
 
 #submit-button {
@@ -165,20 +164,23 @@ textarea {
 /* Footer */
 
 footer {
-    background-color: #ffff;
-    opacity: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
-    border-top: outset #d7d7d9;
+
     
 }
 
 footer p {
     margin-bottom: 0%;
-    color: black;
+    color: #ffff;
 }
 
 footer a {
     font-size: 200%;
+}
+
+.bg-body-tertiary {
+    background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
 /* Media queries */
