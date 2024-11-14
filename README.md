@@ -1,5 +1,7 @@
 # GetStrong
 
+![mockup for finished result](assets/images/mockup.png)
+
 ## Table of contents
 
 1. Goals
@@ -24,6 +26,20 @@ Main audience is people that wants to improve themself and their health and be a
 * Forms to sign up for membership
 * Social links to be able to follow GetStrong's journey
 * Additional information about the gym
+
+### Wireframes
+
+* Wireframes created in [Balsamiq](https://balsamiq.com/wireframes/desktop/#) for different screensizes<br>
+Tablets and larger screens:<br>
+![homepage wireframe screenshot](assets/images/homepage-wireframe.png)<br>
+![pricing page wireframe screenshot](assets/images/pricing-wireframe.png)<br>
+![contact page wireframe screenshot](assets/images/contact-wireframe.png)<br>
+<br>
+Mobile devices:<br>
+
+![mobile wireframe screenshot](assets/images/wireframe-mobile.png)<br>
+
+* The wireframe is a starting idea and the final design was improved along with the project for better visuals.
 
 ### Features
 
@@ -73,19 +89,7 @@ with any question they might have.
     ![screenshot of css validation](assets/images/css-validation.png)
     - Screensize responsiveness is tested in the browser down to 280px
 
-### Wireframes
 
-* Wireframes created in [Balsamiq](https://balsamiq.com/wireframes/desktop/#) for different screensizes<br>
-Tablets and larger screens:<br>
-![homepage wireframe screenshot](assets/images/homepage-wireframe.png)<br>
-![pricing page wireframe screenshot](assets/images/pricing-wireframe.png)<br>
-![contact page wireframe screenshot](assets/images/contact-wireframe.png)<br>
-<br>
-Mobile devices:<br>
-
-![mobile wireframe screenshot](assets/images/wireframe-mobile.png)<br>
-
-* The wireframe is a starting idea and the final design was improved along with the project for better visuals.
 ### Bugs
 
 * No bugs where discovered.
@@ -99,7 +103,7 @@ Mobile devices:<br>
 * Bootstrap documentation and the [Bootstrap library](https://getbootstrap.com/docs/5.3/getting-started/introduction/), version 5.
 * Icons taken from [Font Awesome](https://fontawesome.com/)
 * Cheat sheet I used for readme file: https://www.markdownguide.org/cheat-sheet/
-* Inspiration for the readme file from [SophieTiger](https://github.com/SophieTiger/optimal_health)
+
 ### Future features
 
 * In the future, I would like to add a members section with an option to log in as a member where you can track your progress, training history.
