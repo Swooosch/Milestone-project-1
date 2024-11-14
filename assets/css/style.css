@@ -260,22 +260,4 @@ footer a {
         width: 60vw;
     }
 }
-/* Mobile contact form 
-@media screen and (max-width: 425px) {
-    .contactform {
-        width: 75vw;
-    }
 
-    #submit-button {
-        width: 20vw;
-    }
-
-    textarea {
-        width: 60vw;
-    }
-
-    .contactform input {
-        width: 60vw;
-    }
-}
-/* Tablet contact form */
