@@ -82,6 +82,7 @@ Tablets and larger screens:<br>
 ![contact page wireframe screenshot](assets/images/contact-wireframe.png)<br>
 <br>
 Mobile devices:<br>
+
 ![mobile wireframe screenshot](assets/images/wireframe-mobile.png)<br>
 
 * The wireframe is a starting idea and the final design was improved along with the project for better visuals.
