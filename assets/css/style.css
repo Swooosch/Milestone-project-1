@@ -263,3 +263,9 @@ footer a {
     }
 }
 
+@media screen and (min-width: 1271px) {
+    .last-card {
+        margin-bottom: 0;
+    }
+}
+
