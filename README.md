@@ -51,6 +51,7 @@ For smaller screen it appears with a burgericon and a dropdown menu:<br>
 <br>
 * The homepage is information about where we are located in Sweden
 * Footer provides copyright information and social media links:<br>
+
 ![screenshot of footer with sociallinks and copyright](assets/images/footer.png)
 * In the contact page there is a form to provide user access to get in touch with GetStrong<br>
 with any question they might have.
@@ -84,9 +85,13 @@ with any question they might have.
 * Validator testing:
     - HTLM Validation: Passed without any error. It says the links are empty due to the face there is only a picture of the relevant social media platform.
     <br>
+    
     ![screenshot of html validation](assets/images/html-validation.png)
+    
     - CSS Validation: Passed without any errors.<br>
+    
     ![screenshot of css validation](assets/images/css-validation.png)
+    
     - Screensize responsiveness is tested in the browser down to 280px
 
 
