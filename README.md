@@ -45,10 +45,11 @@ Mobile devices:<br>
 
 * Navigation bar at top for quick and easy navigation through the site:<br>
 For laptops/desktop:<br>
-![screenshot of the navigationbar for bigger screens](assets/images/navbar-lg-screen.png)
+![screenshot of the navigationbar for bigger screens](assets/images/navbar-lg-screen.png)<br>
 For smaller screen it appears with a burgericon and a dropdown menu:<br>
 ![screenshot of navigationbar for smaller screeens](assets/images/navbar-sm.png)
 <br>
+
 * The homepage is information about where we are located in Sweden
 * Footer provides copyright information and social media links:<br>
 
